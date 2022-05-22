@@ -25,6 +25,10 @@ var backspaceCompare = function(s, t) {
         return false;
     }
     else{
+        if(first[0]!==second[0])
+            {
+                   return false
+            }
        first=first.join('');
        second=second.join('');
         if(first===second){
