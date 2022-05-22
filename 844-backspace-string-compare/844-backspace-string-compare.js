@@ -34,9 +34,7 @@ var backspaceCompare = function(s, t) {
         if(first===second){
             return true
         }
-        else{
-             return false
-        }
+
     }
     return  false
 };
