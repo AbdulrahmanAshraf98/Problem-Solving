@@ -12,10 +12,10 @@ var twoSum = function(nums, target) {
         {
           if(numbertofind===nums[j])
               {
-                  resualt=[i,j]
+                  return[i,j]
               }
         }
         
     }
-    return resualt ;
+    return null ;
 };
