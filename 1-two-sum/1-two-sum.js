@@ -4,25 +4,18 @@
  * @return {number[]}
  */
 var twoSum = function(nums, target) {
-  arraysize=nums.length;
-   let resulat=[];
-    let nextelement;
-    for(let i=0;i<arraysize;i++)
+    const arraySize=nums.length;
+    let resualt=[]
+    for(let i=0;i<arraySize;i++){
+    const numbertofind=target-nums[i];
+    for(let j=i+1;j<arraySize;j++)
         {
-            for(let j=i+1;j<arraysize;j++)
-                {
-                    let sum=nums[i]+nums[j];
-                      if(sum==target)
-                {
-                    resulat=[i,j];
-                    break;
-                }
-            else{
-                 nextelement++;
-            }
-                }
-          
-
+          if(numbertofind===nums[j])
+              {
+                  resualt=[i,j]
+              }
         }
-    return resulat;
+        
+    }
+    return resualt ;
 };
