@@ -24,7 +24,6 @@ var backspaceCompare = function(s, t) {
     if(first.length!==second.length){
         return false;
     }
-    else{
         if(first[0]!==second[0])
             {
                    return false
@@ -35,6 +34,5 @@ var backspaceCompare = function(s, t) {
             return true
         }
 
-    }
     return  false
 };
