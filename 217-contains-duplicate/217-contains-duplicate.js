@@ -9,7 +9,9 @@ var containsDuplicate = function(nums) {
         for(let j=i+1;j<arraySize ;j++){
             if(nums[i]===nums[j])
             constIsDuplicate= true;
-    
+            if(constIsDuplicate){
+                break;
+            }
         }
         if(constIsDuplicate)
             {
