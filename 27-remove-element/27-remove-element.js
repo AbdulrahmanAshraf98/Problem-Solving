@@ -11,5 +11,5 @@ console.log(nums)
 }
 
 }
-return nums.length
+
 };
