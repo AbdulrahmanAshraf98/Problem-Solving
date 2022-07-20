@@ -5,7 +5,7 @@
 var containsDuplicate = function(nums) {
     const arraysize=nums.length;
     let isduplicate=false;
-    nums.sort();
+    nums.sort((a,b)=>a-b);
     for(let i=0 ; i<arraysize;i++)
         {
         let nextelement=i+1;
