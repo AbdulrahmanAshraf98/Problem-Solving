@@ -12,8 +12,7 @@ var twoSum = function(array, target) {
 			if (findNumber === array[j]) {
 				result = [i, j];
 				break;
-			}
-			
+			}	
 		}
         if (result.length===2) {
 				break;
