@@ -10,13 +10,11 @@ var twoSum = function(array, target) {
         const findNumber=target-array[i];
 		for (let j = i+1; j <=arrSize; j++) {	
 			if (findNumber === array[j]) {
-				result = [i, j];
-				break;
+				return [i, j];
+				
 			}	
 		}
-			if (result.length===2) {
-				break;
-			}
+			
 	}
-	return result;
+	return null;
 };
