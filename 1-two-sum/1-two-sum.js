@@ -14,9 +14,9 @@ var twoSum = function(array, target) {
 				break;
 			}	
 		}
-        if (result.length===2) {
-				break;
-			}
+			// if (result.length===2) {
+			// 	break;
+			// }
 	}
 	return result;
 };
