@@ -17,7 +17,7 @@ var twoSum = function(array, target) {
 			
 // 	}
 // 	return null;
-    let hashMap={};
+    const hashMap={};
     for(let i =0 ; i<array.length;i++){
         if(hashMap[array[i]]>=0){
             return [hashMap[array[i]],i]
