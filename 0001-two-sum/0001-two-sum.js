@@ -24,7 +24,7 @@ var twoSum = function(array, target) {
    
         }
         else{
-                  let numberTofind=target-array[i];
+         let numberTofind=target-array[i];
          hashMap[numberTofind]=i;
         }
     }
